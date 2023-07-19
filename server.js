@@ -11,7 +11,7 @@ const server = require('http').createServer(app);
 
 const io = socket(server, {
     cors: {
-        origin: "http://localhost:3000"
+        origin: "https://multiplayer-tictactoe-cyan.vercel.app/"
     }
 });
 
